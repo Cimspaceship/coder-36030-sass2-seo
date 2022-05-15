@@ -13,9 +13,7 @@
 }
 
 .pcbuild-step2-amd {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .pcbuild;
     justify-content: center;
 
     div {
