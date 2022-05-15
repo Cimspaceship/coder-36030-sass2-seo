@@ -66,13 +66,13 @@ h2 {
 
 h3 {
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   height: fit-content;
   flex-wrap: wrap; }
 
 h4 {
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   width: fit-content;
   flex-wrap: wrap; }
 
@@ -104,7 +104,6 @@ footer {
   footer div {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
     margin: 15px; }
   footer img {
     max-width: 20%;
@@ -114,8 +113,7 @@ footer {
   footer a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: 400; }
+    color: white; }
 
 /*nucleo de productos en home*/
 .home-image {
@@ -129,8 +127,7 @@ footer {
     margin-left: 5px;
     margin-right: 5px; }
   .home-image h3 {
-    text-align: center;
-    font-weight: 600; }
+    text-align: center; }
   .home-image img {
     max-width: 100%;
     height: auto; }
@@ -143,7 +140,10 @@ footer {
 /*grid index*/
 .main-wrapper-index {
   display: grid;
-  grid-template-areas: "nav" "header" "main" "footer"; }
+  grid-template-areas: "nav"
+ "header"
+ "main"
+ "footer"; }
 
 nav {
   grid-area: nav; }
@@ -171,7 +171,9 @@ table {
 
 .main-wrapper-products {
   display: grid;
-  grid-template-areas: "nav" "main" "footer"; }
+  grid-template-areas: "nav"
+ "main"
+ "footer"; }
 
 .menu-products {
   grid-area: main;
@@ -218,10 +220,7 @@ table {
   justify-content: center;
   text-align: center; }
   .login h2 {
-    border-bottom: none;
-    font-weight: 700; }
-  .login h3 {
-    font-weight: 600; }
+    border-bottom: none; }
   .login input {
     margin: 5px; }
 
@@ -302,7 +301,10 @@ footer div img:hover {
   /*grid index*/
   .main-wrapper-index {
     display: grid;
-    grid-template-areas: "nav nav" "header header" "main main" "footer footer"; }
+    grid-template-areas: "nav nav"
+ "header header"
+ "main main"
+ "footer footer"; }
   /**FOOTER**/
   /*menucito y footer*/
   footer {
@@ -310,7 +312,6 @@ footer div img:hover {
     footer div {
       color: white;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-weight: 100;
       margin: 15px;
       width: 25%; }
     footer img {
@@ -321,13 +322,14 @@ footer div img:hover {
   /*tabla de lista productos*/
   table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
     display: flex; }
     table td {
       padding: 4px; }
   .main-wrapper-products {
     display: grid;
-    grid-template-areas: "nav nav" "main main" "footer footer";
+    grid-template-areas: "nav nav"
+ "main main"
+ "footer footer";
     grid-template-columns: 1fr 5fr; }
   .menu-products {
     grid-area: main;
@@ -367,9 +369,6 @@ footer div img:hover {
     justify-content: center;
     text-align: center; }
     .login h2 {
-      border-bottom: none;
-      font-weight: 700; }
-    .login h3 {
-      font-weight: 600; }
+      border-bottom: none; }
   input {
     margin: 5px; } }

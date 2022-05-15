@@ -41,7 +41,6 @@ footer {
     div {
         color: white;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight:100;
         margin: 15px;
         width: 25%;
     }
@@ -61,7 +60,7 @@ footer {
 /*tabla de lista productos*/
 table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+
     display: flex;
 
     td {
@@ -145,12 +144,8 @@ table {
 
     h2 {
         border-bottom: none;
-        font-weight: 700;
     }
 
-    h3 {
-        font-weight: 600;
-    }
 }
 
 input {
