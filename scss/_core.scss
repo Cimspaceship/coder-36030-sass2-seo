@@ -6,9 +6,13 @@ body {
 }
 /*para que se ajusten las imagenes (ver banner ej)*/
 
-img {
-    max-width: 100%;
+@mixin size {
     height: auto;
+    max-width: 100%;
+}
+    
+img {
+    @include size;
   }
 
 /**ESTETICA TITULOS**/
