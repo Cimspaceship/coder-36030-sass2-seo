@@ -1,0 +1,35 @@
+/**CORE**/
+
+/*evita borde blanco*/
+body {
+    background-color: whitesmoke;
+}
+/*para que se ajusten las imagenes (ver banner ej)*/
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/**ESTETICA TITULOS**/
+h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    border-bottom: solid black;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    height:fit-content;
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 700;
+    width:fit-content;
+    flex-wrap: wrap;
+}
