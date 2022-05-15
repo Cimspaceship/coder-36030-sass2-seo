@@ -1,3 +1,4 @@
+/*variables*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -226,25 +227,25 @@ table {
 
 /*animaciones/transiciones*/
 nav ul li {
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
 
 nav ul li:hover {
   border-bottom: 1px solid white; }
 
 .div-zoom {
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
 
 .div-zoom:hover {
   transform: scale(1.1); }
 
 .micro-menu ul li {
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
 
 .micro-menu ul li:hover {
   border-bottom: 1px solid white; }
 
 footer div img {
-  transition: all .2s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
 
 footer div img:hover {
   transform: scale(1.05); }
