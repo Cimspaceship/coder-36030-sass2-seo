@@ -12,24 +12,41 @@ img {
   }
 
 /**ESTETICA TITULOS**/
+
+h1 {
+    border-bottom: solid black;
+    padding: 15px;
+    margin-top: 15px;
+}
+
 h2 {
-    font-family: sans-serif;
-    font-weight: 700;
     border-bottom: solid black;
     padding: 15px;
     margin-top: 15px;
 }
 
 h3 {
-    font-family: sans-serif;
-    font-weight: 600;
     height:fit-content;
     flex-wrap: wrap;
 }
 
 h4 {
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     width:fit-content;
     flex-wrap: wrap;
+}
+
+
+$titles: (
+    primario: 750,
+    secundario: 700,
+    terciario: 600,
+);
+
+@each $title, $font-weight in $titles {
+    .title-#{$title} {
+        font-weight: $font-weight;
+        font-family: sans-serif;
+    }
 }
